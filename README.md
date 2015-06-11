@@ -20,7 +20,7 @@ the Multitouch Events.
 and tracked.  We need to get to the bottom of this to find the bottleneck.  We are hoping it isn't the XInput2 architecture, but
 instead the way we are rendering the 3d shapes through OpenGL.  So some more investigation needs to be performed to isolate the
 bottleneck.
-* We would like for the 3d shape to split up for each new touch added.  Would be fun to get this to work.
+* We would like for the 3d shape to split up for each new touch added beyone two fingers.  Would be fun to get this to work.
 * We would like to add some physics to calculate distance, velocity, acceleration, and direction of the touch events.
 * We would like to add gesture processing which would process the XInput2 Multitouch Events and convert them to other XInput Events
 * Multitouch Event recording and playback for testing purposes without the need for a Multitouch Monitor.
